@@ -20,6 +20,8 @@ end
 
 def find_the_cheese(cheese_types)
   cheese_types.fetch(1)
+else
+  puts "nil"
   
 end
 
