@@ -19,6 +19,6 @@ end
   end
 
 def find_the_cheese(cheese_types)
-  cheese_types.first(1)
+  cheese_types.length <= 1 ? nil : self[1]
 end
 
