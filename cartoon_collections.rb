@@ -2,6 +2,7 @@
 #veggies = %w[carrot cucumber pepper]
 #calls_long = ["axe", "earth", "wind", "fire"]
 #cheese_types = ["cheddar", "gouda", "camembert"]
+#cheddar_cheese = %w[banana cheddar sock]
 
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index { |item, index| p "#{index+1}:#{item}"}
@@ -18,6 +19,6 @@ end
   end
 
 def find_the_cheese(cheese_types)
-  cheese_types.first
+  cheese_types.first(1)
 end
 
