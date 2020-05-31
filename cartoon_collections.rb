@@ -17,7 +17,7 @@ end
    calls_long.any? { |i| i == calls_long.size}
   end
 
-# def find_the_cheese(cheese_types)
+def find_the_cheese(cheese_types)
   
-# end
+end
 
