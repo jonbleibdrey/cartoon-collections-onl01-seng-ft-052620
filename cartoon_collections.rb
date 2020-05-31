@@ -18,6 +18,6 @@ end
   end
 
 def find_the_cheese(cheese_types)
-  cheese_types.
+  cheese_types.first()
 end
 
