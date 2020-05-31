@@ -15,7 +15,7 @@ def summon_captain_planet(veggies)
 end
   
  def long_planeteer_calls(calls_long)
-   calls_long.any? { |calls_longs| i == calls_longs.size}
+   calls_long.any? { |calls_longs| calls_longs == calls_long.size}
   end
 
 def find_the_cheese(cheese_types)
